@@ -1,0 +1,91 @@
+<meta charset="UTF-8">
+
+Estoy defininedo la edad de Christian
+<br>
+<br>
+<script>
+	/*document.write("La edad de Christian es ...<br>")
+	document.write("25") //esto es codigo HTML dentro de JS*/
+	//document.write("20"+15)//concatenar
+	//alert("La edad de Christian es ....");
+	//alert("?");
+	/*document.write("<br>")
+	document.write("EL año de nacimiento de Christian es ...<br>")
+	document.write(2020-29)
+	document.write("<br>")
+	document.write("El promedio de edad de Juan, Pedro y Carlos es....")
+	document.write("<br>")
+	document.write((20+25+15)/3)
+	document.write("<br>")
+	document.write("La suma de las edades de Juan, Pedro y Carlos es...<br>"+ (20+25+15))
+	document.write("<br>")
+	document.write("Juan nacio en el año....");
+	document.write("<br>")
+	document.write(2020-20);
+	document.write("<br>")
+	document.write("Pedro nacio en el año....");
+	document.write("<br>")
+	document.write(2020-25);
+	document.write("<br>")
+	document.write("Carlos nacio en el año....");
+	document.write("<br>")
+	document.write(2020-15);*/
+
+//clase de reducioendo alteraciones
+
+	function saltarlinea() {
+		document.write("<br>")
+		document.write("<br>")
+	}
+
+	function imprimir(frase) {
+		document.write(frase)
+		//sirve para sustituir la funcion document.write
+	}
+	
+	var anho = 2023;
+
+	imprimir("Hola Mundo");
+	saltarlinea();
+	imprimir("Juan tiene: "+ (anho-2000) +" años");
+	saltarlinea();
+	imprimir("Pedro tiene: "+(anho-1995)+" años");
+	saltarlinea();
+	imprimir("Carlos tiene: "+(anho-2005)+" años");
+	saltarlinea();
+
+	anho = 2020;
+
+	imprimir("Jimena tiene: "+ (anho-2010) +" años");
+	saltarlinea();
+	imprimir("Paola tiene: "+(anho-1995)+" años");
+	saltarlinea();
+	imprimir("Laura tiene: "+(anho-2005)+" años");
+	saltarlinea();
+
+	var edadPaola=anho-1995;
+	var edadJimena=anho-2010;
+	var edadLaura=anho-2005;
+
+	var nom1= "Paola";
+	var nom2= "Jimena";
+	var nom3= "Laura";
+
+	var promedio = (edadPaola+edadLaura+edadJimena)/3;
+	imprimir("El promedio de las edades de las 3 mujeres "+nom1+", "+nom2+" y "+nom3+" es:"+Math.round (promedio));
+
+
+	 /*var promedio = ((anho-2010)+(anho-1995)+(anho-2005))/3;
+	document.write("El promedio de las edades de las 3 mujeres es: "+Math.round (promedio));*/
+	//document.write("El promedio de las edades de las 3 mujeres es: "+((anho-2010)+(anho-1995)+(anho-2005))/3);
+
+
+	/*document.write(12 + " años");//concatenar
+	document.write("<br>")
+	//document.write(Mi edad es + 12); //Esto no esta correcto
+	document.write("<br>")
+	document.write("Media calculada " + 20);//concatenar
+	document.write("<br>")
+	document.write(10 + 20);//operacion matematica*/
+
+</script>

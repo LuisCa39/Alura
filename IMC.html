@@ -1,0 +1,56 @@
+<meta charset="UTF-8">
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");        
+        document.write("<br>");    
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function calcularimc(peso,altura) {
+
+        return (peso/(altura*altura));
+        
+    }
+    nombre=prompt("Informe su nombre");
+    peso=prompt(nombre+", informe su peso");
+    altura=prompt(nombre+", informe su altura");
+
+    imcCalculado=calcularimc(peso,altura)
+
+ imprimir(nombre+" su IMC es: " +imcCalculado/*calcularimc(100,1.75)*/)
+    /*calcularimc(100,1.75,"Luis");
+
+    calcularimc(80,1.85,"Felipe");*/
+
+
+
+
+   /* function saltarLinea() {
+
+        document.write("<br>");
+    }
+
+    function mostrar(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function a(numero1, numero2) {
+        return numero1 + numero2;
+    }
+
+    function b(numero1, numero2) {
+        return numero1 / numero2;
+    }
+
+    var resultado = a(10,20) + b(30,2);
+
+    mostrar(resultado);*/
+
+</script>
